@@ -1,0 +1,1049 @@
+[
+  {
+    "date": "02.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "PICK * MIX GEMUESE (TOMATEN)",
+        "weight/amount": ".634 kg",
+        "preis": "9.90 EUR/kg",
+        "total prise": 6.28,
+        "shop's name": "REWE"
+      }, {
+        "name": "SALATGURKE",
+        "weight/amount": "1 piece",
+        "preis": "0.49 EUR/piece",
+        "total prise": 0.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "KR. PETERSILIE",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "KREUTER DILL NI",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "03.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "ROSENBROETC.HELL",
+        "weight/amount": "1 piece",
+        "preis": "0.39 EUR/piece",
+        "total prise": 0.39,
+        "shop's name": "REWE"
+      }, {
+        "name": "WELTMEISTERBROE.",
+        "weight/amount": "1 piece",
+        "preis": "0.29 EUR/piece",
+        "total prise": 0.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "ZWIEBEL BRAVOS",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "PICK * MIX GEMUESE",
+        "description": "Tomaten",
+        "weight/amount": "0.436 kg",
+        "preis": "9.90 EUR/kg",
+        "total prise": 4.32,
+        "shop's name": "REWE"
+      }, {
+        "name": "COLLAGE HIMBEERE",
+        "weight/amount": "1 piece",
+        "preis": "1.09 EUR/piece",
+        "total prise": 1.09,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "04.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "ROSENBROETC.HELL",
+        "weight/amount": "1 piece",
+        "preis": "0.39 EUR/piece",
+        "total prise": 0.39,
+        "shop's name": "REWE"
+      }, {
+        "name": "ROSENBROETC.DKL",
+        "weight/amount": "1 piece",
+        "preis": "0.39 EUR/piece",
+        "total prise": 0.39,
+        "shop's name": "REWE"
+      }, {
+        "name": "SALATBAR GROSS",
+        "weight/amount": "0.546 kg",
+        "preis": "11.90 EUR/kg",
+        "total prise": 6.50,
+        "shop's name": "REWE"
+      }, {
+        "name": "BIO HACK SW RD",
+        "weight/amount": "1 piece",
+        "preis": "6.49 EUR/piece",
+        "total prise": 6.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "HA-BRUSTFILET",
+        "weight/amount": "1 piece",
+        "preis": "3.11 EUR/piece",
+        "total prise": 3.11,
+        "shop's name": "REWE"
+      }, {
+        "name": "APRIKOSE GROSS",
+        "weight/amount": "0.426 kg",
+        "preis": "3.79 EUR/kg",
+        "total prise": 1.61,
+        "shop's name": "REWE"
+      }, {
+        "name": "PISTAZIEN GESALZ",
+        "weight/amount": "1 piece",
+        "preis": "3.19 EUR/piece",
+        "total prise": 3.19,
+        "shop's name": "REWE"
+      }, {
+        "name": "Reisegeld",
+        "description": "Reisegeld fuer Galina. Zug, Taxi.",
+        "weight/amount": "1 piece",
+        "preis": "63.38 EUR/piece",
+        "total prise": 63.38,
+        "shop's name": "Person"
+      }
+    ]
+  }, {
+    "date": "05.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "HAEH. UNTERKEULEN",
+        "weight/amount": "1 piece",
+        "preis": "2.80 EUR/piece",
+        "total prise": 2.80,
+        "shop's name": "REWE"
+      }, {
+        "name": "VITAL & FIT",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "MAKRELE GANZ",
+        "weight/amount": "1 piece",
+        "preis": "2.29 EUR/piece",
+        "total prise": 2.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "GRAVED LACHS",
+        "weight/amount": "1 piece",
+        "preis": "3.89 EUR/piece",
+        "total prise": 3.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "SAFT APFEL SAUE",
+        "weight/amount": "1 piece",
+        "preis": "1.79 EUR/piece",
+        "total prise": 1.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "BANANE BIO",
+        "weight/amount": "0.430 kg",
+        "preis": "1.99 EUR/kg",
+        "total prise": 0.86,
+        "shop's name": "REWE"
+      }, {
+        "name": "HIMBEERE",
+        "weight/amount": "1 piece",
+        "preis": "2.29 EUR/piece",
+        "total prise": 2.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "HEIDELBEERE",
+        "weight/amount": "1 piece",
+        "preis": "2.29 EUR/piece",
+        "total prise": 2.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "KIRSCHE",
+        "weight/amount": "0.616 kg",
+        "preis": "5.90 EUR/kg",
+        "total prise": 3.63,
+        "shop's name": "REWE"
+      }, {
+        "name": "WALNUSSKERNE",
+        "weight/amount": "1 piece",
+        "preis": "13.99 EUR/piece",
+        "total prise": 13.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "KIWI",
+        "weight/amount": "1 piece",
+        "preis": "1.79 EUR/piece",
+        "total prise": 1.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "OBST/GEMUESE",
+        "weight/amount": "2 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 1.98,
+        "shop's name": "REWE"
+      }, {
+        "name": "BLATTSALAT BIO",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "RISPENTOMATE",
+        "weight/amount": "0.774 kg",
+        "preis": "1.19 EUR/kg",
+        "total prise": 0.92,
+        "shop's name": "REWE"
+      }, {
+        "name": "SPEISEQUARK 20%",
+        "weight/amount": "2 piece",
+        "preis": "0.49 EUR/piece",
+        "total prise": 0.98,
+        "shop's name": "REWE"
+      }, {
+        "name": "BARILLA FUSILLI",
+        "weight/amount": "1 piece",
+        "preis": "0.75 EUR/piece",
+        "total prise": 0.75,
+        "shop's name": "REWE"
+      }, {
+        "name": "COLLAGE HIMBEERE",
+        "weight/amount": "1 piece",
+        "preis": "1.09 EUR/piece",
+        "total prise": 1.09,
+        "shop's name": "REWE"
+      }, {
+        "name": "MINERALWASSER",
+        "description": "Gerolsteiner",
+        "weight/amount": "1 piece",
+        "preis": "0.69 EUR/piece",
+        "pfand": 0.15,
+        "total prise": 0.84,
+        "shop's name": "REWE"
+      }, {
+        "name": "PALM. SEIFE",
+        "weight/amount": "1 piece",
+        "preis": "0.45 EUR/piece",
+        "total prise": 0.45,
+        "shop's name": "REWE"
+      }, {
+        "name": "Flugticket",
+        "description": "Moskau - Koeln. Galina zu Gast.",
+        "weight/amount": "1 piece",
+        "preis": "67 EUR/piece",
+        "total prise": 67,
+        "shop's name": "POBEDA AIRLINES"
+      }, {
+        "name": "Busticket",
+        "description": "Hamburg - Koeln",
+        "weight/amount": "1 piece",
+        "preis": "24.99 EUR/piece",
+        "total prise": 24.99,
+        "shop's name": "Flixbus"
+      }
+    ]
+  }, {
+    "date": "06.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "AMZNPrime DE",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "Amazon.de"
+      }
+    ]
+  }, {
+    "date": "08.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "HACKFLEISCH GEM.",
+        "description": "Hackfleich femischt (Schwein/Rind)",
+        "weight/amount": "2 piece",
+        "preis": "1.74 EUR/piece",
+        "rabatt": "30%",
+        "total prise": 2.96,
+        "shop's name": "REWE"
+      }, {
+        "name": "HAE. BRUSTFILET",
+        "weight/amount": "1 piece",
+        "preis": "5.72 EUR/piece",
+        "total prise": 5.72,
+        "shop's name": "REWE"
+      }, {
+        "name": "GOUDA JUNG",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "SAFT APFEL SAUE",
+        "weight/amount": "1 piece",
+        "preis": "1.79 EUR/piece",
+        "total prise": 1.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "ERDBERE",
+        "weight/amount": "0.492 kg",
+        "preis": "5.58 EUR/kg",
+        "total prise": 2.75,
+        "shop's name": "REWE"
+      }, {
+        "name": "HIMBEERE",
+        "description": "Gross",
+        "weight/amount": "1 piece",
+        "preis": "1.49 EUR/piece",
+        "total prise": 1.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "KIRSCHE SUESS",
+        "weight/amount": "0.624 kg",
+        "preis": "3.30 EUR/kg",
+        "total prise": 2.06,
+        "shop's name": "REWE"
+      }, {
+        "name": "PFLAUME",
+        "weight/amount": "0.522 kg",
+        "preis": "4.79 EUR/kg",
+        "total prise": 2.50,
+        "shop's name": "REWE"
+      }, {
+        "name": "OBST/GEMUESE",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "ZWIEBEL",
+        "weight/amount": "1 piece",
+        "preis": "1.49 EUR/piece",
+        "total prise": 1.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "SPEISEQUARK 20%",
+        "weight/amount": "2 piece",
+        "preis": "0.49 EUR/piece",
+        "total prise": 0.98,
+        "shop's name": "REWE"
+      }, {
+        "name": "CARAMEL",
+        "weight/amount": "1 piece",
+        "preis": "0.65 EUR/piece",
+        "total prise": 0.65,
+        "shop's name": "REWE"
+      }, {
+        "name": "MINERALWASSER",
+        "description": "Gerolsteiner",
+        "weight/amount": "1 piece",
+        "preis": "0.69 EUR/piece",
+        "pfand": 0.15,
+        "total prise": 0.84,
+        "shop's name": "REWE"
+      }, {
+        "name": "ELMEX REP&PREVEN",
+        "weight/amount": "1 piece",
+        "preis": "5.99 EUR/piece",
+        "total prise": 5.99,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "09.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "STEINOFENBROT",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 2.96,
+        "shop's name": "REWE"
+      }, {
+        "name": "STUDENTENFUTTER",
+        "weight/amount": "1 piece",
+        "preis": "2.69 EUR/piece",
+        "total prise": 2.69,
+        "shop's name": "REWE"
+      }, {
+        "name": "RISPENTOMATE",
+        "weight/amount": "0.632 kg",
+        "preis": "1.19 EUR/kg",
+        "total prise": 0.75,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "10.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "HAEH. UNTERKEULEN",
+        "weight/amount": "1 piece",
+        "preis": "2.93 EUR/piece",
+        "total prise": 2.93,
+        "shop's name": "REWE"
+      }, {
+        "name": "HAE. BRUSTFILET",
+        "weight/amount": "1 piece",
+        "preis": "5.78 EUR/piece",
+        "total prise": 5.78,
+        "shop's name": "REWE"
+      }, {
+        "name": "METGEBRATW.MITT",
+        "weight/amount": "1 piece",
+        "preis": "3.29 EUR/piece",
+        "total prise": 3.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "BANANE BIO",
+        "weight/amount": "0.572 kg",
+        "preis": "1.99 EUR/kg",
+        "total prise": 1.14,
+        "shop's name": "REWE"
+      }, {
+        "name": "TORTIGLIONI",
+        "weight/amount": "1 piece",
+        "preis": "1.59 EUR/piece",
+        "total prise": 1.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "LUFLEE",
+        "weight/amount": "1 piece",
+        "preis": "0.65 EUR/piece",
+        "total prise": 0.65,
+        "shop's name": "REWE"
+      }, {
+        "name": "SNICKERS 2X40G",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "11.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "Gepaeck. Zusatz zu Flugticket",
+        "description": "Moskau - Koeln. Galina zu Gast.",
+        "weight/amount": "1 piece",
+        "preis": "13.37 EUR/piece",
+        "total prise": 13.37,
+        "shop's name": "POBEDA AIRLINES"
+      }, {
+        "name": "KLN APARTMENTS",
+        "description": "Uebernachten in Koeln. Blaue Karte abholen.",
+        "weight/amount": "1 piece",
+        "preis": "46.75 EUR/piece",
+        "total prise": 46.75,
+        "shop's name": "booking.com"
+      }
+    ]
+  }, {
+    "date": "12.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "EAT",
+        "description": "Supper for 2 persons.",
+        "weight/amount": "1 piece",
+        "preis": "13.96 EUR/piece",
+        "total prise": 13.96,
+        "shop's name": "BURGER KING"
+      }, {
+        "name": "THOMAPYRIN INTENSIV",
+        "description": "Schmerzentabletten",
+        "weight/amount": "1 piece",
+        "preis": "8.29 EUR/piece",
+        "total prise": 8.29,
+        "shop's name": "Vincenz Apotheke S. Beckmann-Schneider"
+      }
+    ]
+  }, {
+    "date": "13.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "HACKFLEISCH GEM.",
+        "description": "Hackfleich femischt (Schwein/Rind)",
+        "weight/amount": "1 piece",
+        "preis": "2.39 EUR/piece",
+        "total prise": 2.39,
+        "shop's name": "REWE"
+      }, {
+        "name": "HAE. BRUSTFILET",
+        "weight/amount": "1 piece",
+        "preis": "4.57 EUR/piece",
+        "total prise": 4.57,
+        "shop's name": "REWE"
+      }, {
+        "name": "BEDIENUNGSTHEKE",
+        "weight/amount": "1 piece",
+        "preis": "0.49 EUR/piece",
+        "total prise": 0.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "LEICHTSCHINKEN",
+        "weight/amount": "1 piece",
+        "preis": "1.71 EUR/piece",
+        "total prise": 1.71,
+        "shop's name": "REWE"
+      }, {
+        "name": "ROSTBRATWURST",
+        "weight/amount": "1 piece",
+        "preis": "2.59 EUR/piece",
+        "total prise": 2.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "JA! EMMENTALER",
+        "weight/amount": "1 piece",
+        "preis": "2.59 EUR/piece",
+        "total prise": 2.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "MINUS L MOZARR",
+        "description": "Mozarella",
+        "weight/amount": "1 piece",
+        "preis": "1.69 EUR/piece",
+        "total prise": 1.69,
+        "shop's name": "REWE"
+      }, {
+        "name": "VKORN SONNENBATZ",
+        "weight/amount": "1 piece",
+        "preis": "1.79 EUR/piece",
+        "total prise": 1.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "POTATO-BROETCHEN",
+        "weight/amount": "1 piece",
+        "preis": "0.59 EUR/piece",
+        "total prise": 0.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "BANANE BIO",
+        "weight/amount": "0.562 kg",
+        "preis": "1.99 EUR/kg",
+        "total prise": 1.12,
+        "shop's name": "REWE"
+      }, {
+        "name": "ERDBERE",
+        "weight/amount": "0.516 kg",
+        "preis": "5.58 EUR/kg",
+        "total prise": 2.88,
+        "shop's name": "REWE"
+      }, {
+        "name": "HIMBEERE",
+        "weight/amount": "2 piece",
+        "preis": "1.49 EUR/piece",
+        "total prise": 2.98,
+        "shop's name": "REWE"
+      }, {
+        "name": "STACHELBEERE",
+        "weight/amount": "0.488 kg",
+        "preis": "4.98 EUR/kg",
+        "total prise": 2.43,
+        "shop's name": "REWE"
+      }, {
+        "name": "KIRSCHE SUESS",
+        "weight/amount": "0.760 kg",
+        "preis": "3.30 EUR/kg",
+        "total prise": 2.51,
+        "shop's name": "REWE"
+      }, {
+        "name": "PFLAUME",
+        "weight/amount": "0.692 kg",
+        "preis": "4.79 EUR/kg",
+        "total prise": 3.31,
+        "shop's name": "REWE"
+      }, {
+        "name": "OBST/GEMUESE",
+        "weight/amount": "1 piece",
+        "preis": "2.79 EUR/piece",
+        "total prise": 2.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "OBST/GEMUESE",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "ZWIEBEL ROT BIO",
+        "weight/amount": "1 piece",
+        "preis": "1.49 EUR/piece",
+        "total prise": 1.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "CHINAKOHL",
+        "weight/amount": "0.688 kg",
+        "preis": "1.79 EUR/kg",
+        "total prise": 1.23,
+        "shop's name": "REWE"
+      }, {
+        "name": "RISPENTOMATE",
+        "weight/amount": "0.840 kg",
+        "preis": "1.19 EUR/kg",
+        "total prise": 1.00,
+        "shop's name": "REWE"
+      }, {
+        "name": "SALATGURKE",
+        "weight/amount": "1 piece",
+        "preis": "0.69 EUR/piece",
+        "total prise": 0.69,
+        "shop's name": "REWE"
+      }, {
+        "name": "JA! EIER BODENHA",
+        "description": "Bodenhaltung",
+        "weight/amount": "1 piece",
+        "preis": "1.19 EUR/piece",
+        "total prise": 1.19,
+        "shop's name": "REWE"
+      }, {
+        "name": "SPEISEQUARK MG",
+        "description": "Magerstufe",
+        "weight/amount": "1 piece",
+        "preis": "1.15 EUR/piece",
+        "total prise": 1.15,
+        "shop's name": "REWE"
+      }, {
+        "name": "DELI.MAYONNAISE",
+        "description": "Delikatesse",
+        "weight/amount": "1 piece",
+        "preis": "0.95 EUR/piece",
+        "total prise": 0.95,
+        "shop's name": "REWE"
+      }, {
+        "name": "AKAZIENHONIG FLU",
+        "description": "Honig",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "SUESSKART.SAURR",
+        "weight/amount": "1 piece",
+        "preis": "1.69 EUR/piece",
+        "total prise": 1.69,
+        "shop's name": "REWE"
+      }, {
+        "name": "COLLAGE HIMBEERE",
+        "weight/amount": "2 piece",
+        "preis": "0.65 EUR/piece",
+        "total prise": 1.30,
+        "shop's name": "REWE"
+      }, {
+        "name": "KINDER RIEGEL",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "SCHWARZBROT MARZ",
+        "weight/amount": "1 piece",
+        "preis": "3.30 EUR/piece",
+        "total prise": 3.30,
+        "shop's name": "REWE"
+      }, {
+        "name": "ORBIT TROPICAL",
+        "weight/amount": "1 piece",
+        "preis": "0.59 EUR/piece",
+        "total prise": 0.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "HONIGWAFFEL",
+        "weight/amount": "1 piece",
+        "preis": "1.89 EUR/piece",
+        "total prise": 1.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "KNUSPERWAFFELN",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "MINERALWASSER",
+        "description": "Gerolsteiner",
+        "weight/amount": "2 piece",
+        "preis": "0.69 EUR/piece",
+        "pfand": 0.15,
+        "total prise": 1.08,
+        "shop's name": "REWE"
+      }, {
+        "name": "REINIGUNGSTUECH.",
+        "weight/amount": "1 piece",
+        "preis": "4.49 EUR/piece",
+        "total prise": 4.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "FR. SIEGEL LIMON",
+        "weight/amount": "1 piece",
+        "preis": "2.69 EUR/piece",
+        "total prise": 2.69,
+        "shop's name": "REWE"
+      }, {
+        "name": "DEO STICK MEN",
+        "weight/amount": "1 piece",
+        "preis": "1.89 EUR/piece",
+        "total prise": 1.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "DUREX NATURAL FE",
+        "weight/amount": "1 piece",
+        "preis": "11.99 EUR/piece",
+        "total prise": 11.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "TASCHE",
+        "description": "Rewe Tasche",
+        "weight/amount": "1 piece",
+        "preis": "1 EUR/piece",
+        "total prise": 1,
+        "shop's name": "REWE"
+      }, {
+        "name": "TOPFREINIGER",
+        "weight/amount": "1 piece",
+        "preis": "0.35 EUR/piece",
+        "total prise": 0.35,
+        "shop's name": "REWE"
+      }, {
+        "name": "HANDSCH. S",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "AMZNPRIME DE AMZN.DE/I",
+        "description": "Amazon prime, Abon bezahlung.",
+        "weight/amount": "1 piece",
+        "preis": "7.99 EUR/piece",
+        "total prise": 7.99,
+        "shop's name": "booking.com"
+      }
+    ]
+  }, {
+    "date": "14.07.2019",
+    "pay method": "Amazon Card",
+    "buy": [
+      {
+        "name": "Ninja Kuechenmaschine",
+        "description": "Ninja Küchenmaschine mit 1500W Kraft und Auto IQ - BL682EU2.",
+        "weight/amount": "1 piece",
+        "preis": "199.99 EUR/piece",
+        "total prise": 199.99,
+        "shop's name": "amazon.de"
+      }
+    ]
+  }, {
+    "date": "16.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "PU-GESCHNETZELTE",
+        "weight/amount": "1 piece",
+        "preis": "3.99 EUR/piece",
+        "total prise": 3.99,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "18.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "HAEH. UNTERKEULEN",
+        "weight/amount": "1 piece",
+        "preis": "3.05 EUR/piece",
+        "total prise": 3.05,
+        "shop's name": "REWE"
+      }, {
+        "name": "HA-BRUSTFILET",
+        "weight/amount": "1 piece",
+        "preis": "3.63 EUR/piece",
+        "total prise": 3.63,
+        "shop's name": "REWE"
+      }, {
+        "name": "HA-BRUSTFILET",
+        "weight/amount": "1 piece",
+        "preis": "2.96 EUR/piece",
+        "total prise": 2.96,
+        "shop's name": "REWE"
+      }, {
+        "name": "VITAL UND FIT",
+        "weight/amount": "1 piece",
+        "preis": "1.29 EUR/piece",
+        "total prise": 1.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "ERDBERE",
+        "weight/amount": "0.556 kg",
+        "preis": "5.58 EUR/kg",
+        "total prise": 3.10,
+        "shop's name": "REWE"
+      }, {
+        "name": "HEIDELBEEREN",
+        "weight/amount": "1 piece",
+        "preis": "4.99 EUR/piece",
+        "total prise": 4.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "KIWI",
+        "weight/amount": "4 piece",
+        "preis": "0.39 EUR/piece",
+        "total prise": 2.34,
+        "shop's name": "REWE"
+      }, {
+        "name": "AVOCADO ESSREIF",
+        "weight/amount": "2 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 3.98,
+        "shop's name": "REWE"
+      }, {
+        "name": "FRUEHK. FESTK. BIO",
+        "weight/amount": "1 piece",
+        "preis": "3.49 EUR/piece",
+        "total prise": 3.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "KNOBLAUCH",
+        "weight/amount": "1 piece",
+        "preis": "1.19 EUR/piece",
+        "total prise": 1.19,
+        "shop's name": "REWE"
+      }, {
+        "name": "PETERSILIE GLATT",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "PETERSILIE KRAUS",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "DILL",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "NIC NAC S",
+        "weight/amount": "1 piece",
+        "preis": "1.89 EUR/piece",
+        "total prise": 1.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "NIC NAC S",
+        "weight/amount": "1 piece",
+        "preis": "1.89 EUR/piece",
+        "total prise": 1.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "KNUSPERWAFFELN",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "GEROLSTEIN. SPRUD",
+        "description": "Minerallwasser",
+        "weight/amount": "1 piece",
+        "preis": "0.79 EUR/piece",
+        "pfand": 0.25,
+        "total prise": 0.54,
+        "shop's name": "REWE"
+      }, {
+        "name": "FROS. GRANA. SPUE.",
+        "weight/amount": "1 piece",
+        "preis": "1.49 EUR/piece",
+        "total prise": 1.49,
+        "shop's name": "REWE"
+      }, {
+        "name": "WC GEL OCEAN",
+        "weight/amount": "1 piece",
+        "preis": "1.19 EUR/piece",
+        "total prise": 1.19,
+        "shop's name": "REWE"
+      }, {
+        "name": "OBST/GEMUESENETZ",
+        "weight/amount": "1 piece",
+        "preis": "0.99 EUR/piece",
+        "total prise": 0.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "MULTIFUNK. TUCH",
+        "weight/amount": "1 piece",
+        "preis": "0.49 EUR/piece",
+        "total prise": 0.49,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "19.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "KIRSCHE SUESS",
+        "weight/amount": "0.528 kg",
+        "preis": "5.90 EUR/kg",
+        "total prise": 3.12,
+        "shop's name": "REWE"
+      }, {
+        "name": "BADEJ. CAMEMBERT",
+        "weight/amount": "1 piece",
+        "preis": "1.79 EUR/piece",
+        "total prise": 1.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "SONNTAGSBROETCH.",
+        "weight/amount": "1 piece",
+        "preis": "0.15 EUR/piece",
+        "total prise": 0.15,
+        "shop's name": "REWE"
+      }, {
+        "name": "NUSSKERNMISCHUNG",
+        "weight/amount": "1 piece",
+        "preis": "8.99 EUR/piece",
+        "total prise": 0.15,
+        "shop's name": "REWE"
+      }, {
+        "name": "NATURJO. GESUE&BA",
+        "weight/amount": "1 piece",
+        "preis": "0.44 EUR/piece",
+        "total prise": 0.44,
+        "shop's name": "REWE"
+      }, {
+        "name": "LUFLEE",
+        "weight/amount": "1 piece",
+        "preis": "1.09 EUR/piece",
+        "total prise": 1.09,
+        "shop's name": "REWE"
+      }
+    ]
+  }, {
+    "date": "20.07.2019",
+    "pay method": "EC card",
+    "buy": [
+      {
+        "name": "HAEH. UNTERKEULEN",
+        "weight/amount": "1 piece",
+        "preis": "3.23 EUR/piece",
+        "total prise": 3.23,
+        "shop's name": "REWE"
+      }, {
+        "name": "JA! EMMENTALER",
+        "weight/amount": "1 piece",
+        "preis": "2.59 EUR/piece",
+        "total prise": 2.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "BIO MOZZARELLA",
+        "description": "Mozzarella",
+        "weight/amount": "1 piece",
+        "preis": "0.89 EUR/piece",
+        "total prise": 0.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "ROGGENKRUESTCH",
+        "weight/amount": "1 piece",
+        "preis": "0.29 EUR/piece",
+        "total prise": 0.29,
+        "shop's name": "REWE"
+      }, {
+        "name": "ORANGEN",
+        "weight/amount": "1 piece",
+        "preis": "2.19 EUR/piece",
+        "total prise": 2.19,
+        "shop's name": "REWE"
+      }, {
+        "name": "GRAPEFRUIT UEB",
+        "weight/amount": "2 piece",
+        "preis": "1.39 EUR/piece",
+        "total prise": 2.78,
+        "shop's name": "REWE"
+      }, {
+        "name": "ERDBERE",
+        "weight/amount": "0.484 kg",
+        "preis": "5.58 EUR/kg",
+        "total prise": 2.70,
+        "shop's name": "REWE"
+      }, {
+        "name": "RISPENTOMATE",
+        "weight/amount": "1.438 kg",
+        "preis": "0.89 EUR/kg",
+        "total prise": 1.28,
+        "shop's name": "REWE"
+      }, {
+        "name": "SPEISEQUARK MAG.",
+        "description": "Magerstufe",
+        "weight/amount": "1 piece",
+        "preis": "0.69 EUR/piece",
+        "total prise": 0.69,
+        "shop's name": "REWE"
+      }, {
+        "name": "NUSSPLI CREME",
+        "weight/amount": "1 piece",
+        "preis": "1.99 EUR/piece",
+        "total prise": 1.99,
+        "shop's name": "REWE"
+      }, {
+        "name": "GOLDBIENE",
+        "weight/amount": "1 piece",
+        "preis": "1.59 EUR/piece",
+        "total prise": 1.59,
+        "shop's name": "REWE"
+      }, {
+        "name": "TRAUBENNUSS SCH.",
+        "weight/amount": "1 piece",
+        "preis": "1.09 EUR/piece",
+        "total prise": 1.09,
+        "shop's name": "REWE"
+      }, {
+        "name": "HONIGWAFFEL",
+        "weight/amount": "1 piece",
+        "preis": "1.89 EUR/piece",
+        "total prise": 1.89,
+        "shop's name": "REWE"
+      }, {
+        "name": "MINERALWASSER",
+        "description": "Gerolsteiner",
+        "weight/amount": "2 piece",
+        "preis": "0.69 EUR/piece",
+        "pfand": 0.15,
+        "total prise": 1.08,
+        "shop's name": "REWE"
+      }, {
+        "name": "VENUS KLINGEN",
+        "weight/amount": "1 piece",
+        "preis": "8.79 EUR/piece",
+        "total prise": 8.79,
+        "shop's name": "REWE"
+      }, {
+        "name": "SPUEL/HAUSH. TUCH",
+        "weight/amount": "1 piece",
+        "preis": "0.75 EUR/piece",
+        "total prise": 0.75,
+        "shop's name": "REWE"
+      }
+    ]
+  }
+]
