@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button';
 import RemoveShoppingCartRoundedIcon from '@material-ui/icons/RemoveShoppingCartRounded';
 import AddingBuy from 'components/AddingBuy/AddingBuy';
 
-
+// TODO: check for input values, not state values;
 
 describe('AddingBuy\'s input controls\' existance', () => {
     let wrapped = null;
@@ -45,16 +45,21 @@ describe('AddingBuy\'s single buy item', () => {
     beforeEach(() => {
         wrapped = mount(<AddingBuy />);
 
-        wrapped.find('ul li TextField.adding-list__name').simulate('change', {
-            target: {
-                value: 'Minerallwasser'
-            }
-        });
-        // wrapped.find('TextField.adding-list__weight-amount').simulate('change', {
-        //     target: {
-        //         value: '1.6'
-        //     }
-        // });
+        wrapped.find('ul li TextField.adding-list__name')
+            .props()
+            .onChange({
+                target: {
+                    value: 'Minerallwasser'
+                } 
+            });
+        
+        wrapped.find('ul li TextField.adding-list__weight-amount')
+            .props()
+            .onChange({
+                target: {
+                    value: '1.6'
+                } 
+            });
 
         wrapped.update();
     });
@@ -66,11 +71,9 @@ describe('AddingBuy\'s single buy item', () => {
     it('refreshes the name input properly on changing the value', () => {
         expect(wrapped.find('TextField.adding-list__name').prop('value')).toEqual('Minerallwasser');
     });
-    // it('refreshes the weight-amount input properly on changing the value', () => {
-    //     const weightAmount = wrapped.find('TextField.adding-list__weight-amount');
-
-    //     expect(weightAmount.prop('value')).toEqual('1.7');
-    // });
+    it('refreshes the weight-amount input properly on changing the value', () => {
+        expect(wrapped.find('TextField.adding-list__weight-amount').prop('value')).toEqual('1.6');
+    });
 });
 
 describe('AddingBuy\'s multiple buy items', () => {
@@ -79,11 +82,13 @@ describe('AddingBuy\'s multiple buy items', () => {
     beforeEach(() => {
         wrapped = mount(<AddingBuy />);
 
-        wrapped.find('TextField.adding-list__name').simulate('change', {
-            target: {
-                value: 'Orangensaft'
-            }
-        });
+        wrapped.find('ul li TextField.adding-list__name')
+            .props()
+            .onChange({
+                target: {
+                    value: 'Orangensaft'
+                } 
+            });
 
         wrapped.find('button.adding-list__submit').simulate('click');
 
@@ -94,33 +99,39 @@ describe('AddingBuy\'s multiple buy items', () => {
         wrapped.unmount();
     });
 
-    it('checks for the existance of the added second item', () => {
-        const items = wrapped.find('li.adding-list__item');
+    it('checks for the existance of the added second item; checks that the 1st item\'s name remained the same;', () => {
+        const items = wrapped.find('ul li.adding-list__item TextField.adding-list__name');
+
+        const nameTextField_0 = items.at(0);
 
         expect(items.length).toEqual(2);
+        expect(nameTextField_0.prop('value')).toEqual('Orangensaft');
     });
 
-    it('checks that the 1st item\'s name remained the same on creating of a new buy; changes value of a new created buy', () => {
-        const items = wrapped.find('li.adding-list__item .adding-list__name');
-        const nameInput_0 = items.at(0);
-        const nameInput_1 = items.at(1);
+    it('changes value of a new created buy; removes the 0-indexed item - value of the second item remains the same', () => {
+        let items = wrapped.find('ul li.adding-list__item TextField.adding-list__name')
+        let nameTextField_1 = items.at(1);
         const removeBtn_0 = wrapped.find('li.adding-list__item .adding-list__btn-remove').at(0);
 
-        nameInput_1.simulate('change', {
-            target: {
-                value: 'Quark'
-            }
-        });
+        nameTextField_1.props()
+            .onChange({
+                target: {
+                    value: 'Quark'
+                }
+            });
 
         wrapped.update();
         // toHaveProp('title', 'Good-bye')
 
-        expect(nameInput_0.prop('value')).toEqual('Orangensaft');
-        expect(wrapped.find('li.adding-list__item .adding-list__name').at(1).prop('value')).toEqual('Quark');
+        items = wrapped.find('ul li.adding-list__item TextField.adding-list__name')
+        nameTextField_1 = items.at(1);
+
+        expect(nameTextField_1.prop('value')).toEqual('Quark');
+        // expect(wrapped.find('li.adding-list__item .adding-list__name').at(1).prop('value')).toEqual('Quark1');
 
         removeBtn_0.simulate('click');
 
         expect(wrapped.find('li.adding-list__item').length).toEqual(1);
-        expect(wrapped.find('li.adding-list__item .adding-list__name').prop('value')).toEqual('Quark');
+        expect(wrapped.find('li.adding-list__item .adding-list__name').at(0).prop('value')).toEqual('Quark');
     });
 });

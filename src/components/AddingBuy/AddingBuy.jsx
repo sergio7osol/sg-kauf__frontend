@@ -3,6 +3,8 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import RemoveShoppingCartRoundedIcon from '@material-ui/icons/RemoveShoppingCartRounded';
 import AddIcon from '@material-ui/icons/Add';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { green } from '@material-ui/core/colors';
 import PropTypes from 'prop-types';
 
@@ -51,7 +53,23 @@ export default class AddingBuy extends Component {
                                     </Button>
                                     <TextField name="adding-list__name" className="adding-list__name" onChange={event => this.nameChange(event.target.value, index) } value={v.name} label="Name" variant="outlined" size="small" />
                                     &nbsp;&nbsp;
-                                    <TextField name="adding-list__weight-amount" className="adding-list__weight-amount" onChange={event => this.weightAmountChange(event.target.value, index) } value={v.weightAmount} label="Weight / Amount" variant="outlined" size="large" type="number" />
+                                    <TextField
+                                        name="adding-list__weight-amount"
+                                        className="adding-list__weight-amount"
+                                        onChange={event => this.weightAmountChange(event.target.value, index)}
+                                        value={v.weightAmount}
+                                        label="Weight / Amount"
+                                        variant="outlined" 
+                                        size="small"
+                                        type="number"
+                                        InputProps={{
+                                            startAdornment: (
+                                                <InputAdornment position="start">
+                                                    <AccountCircleIcon />
+                                                </InputAdornment>
+                                            ),
+                                        }}
+                                    />
                                     {/* 
                                     <input name="adding-list__weight-amount" className="adding-list__weight-amount" onChange={this.weightAmountChange} value={v.weightAmount} placeholder="weight/amount" type="number" />
                                     <select name="adding-list__measure" className="adding-list__measure" onChange={this.measureChange} value={v.measure}>
