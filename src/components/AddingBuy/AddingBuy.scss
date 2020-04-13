@@ -3,6 +3,10 @@
     border: .1rem solid #aaa;
     border-radius: .2rem;
 
+    ul {
+        padding: 0;
+    }
+
     &__item {
         list-style-type: none;
         padding: .5rem;

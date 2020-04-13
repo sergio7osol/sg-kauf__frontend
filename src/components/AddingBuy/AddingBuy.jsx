@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import RemoveShoppingCartRoundedIcon from '@material-ui/icons/RemoveShoppingCartRounded';
 import AddIcon from '@material-ui/icons/Add';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import MenuItem from '@material-ui/core/MenuItem';
 import { green } from '@material-ui/core/colors';
 import PropTypes from 'prop-types';
 
@@ -22,12 +23,7 @@ export default class AddingBuy extends Component {
         };
         
         this.state = {
-            items: [{
-                name: '',
-                weightAmount: 0,
-                measure: 'piece',
-                price: 0
-            }]
+            items: this.props.items || [defaultItem]
         };
 
         this.getDefaultItem = () => {
@@ -38,6 +34,8 @@ export default class AddingBuy extends Component {
 
         this.addItem = this.addItem.bind(this);
         this.removeItem = this.removeItem.bind(this);
+        
+        // this.props.getItems = this.props.getItems.bind(this);
     }
 
     render() {
@@ -48,43 +46,63 @@ export default class AddingBuy extends Component {
                         this.state.items.length && this.state.items.map((v, index) => {
                             return (
                                 <li key={index} className="adding-list__item">
-                                    <Button onClick={() => this.removeItem(index)} className="adding-list__btn-remove" size="medium" variant="contained" style={{float:'right'}}>
-                                        <RemoveShoppingCartRoundedIcon color="secondary" />
-                                    </Button>
-                                    <TextField name="adding-list__name" className="adding-list__name" onChange={event => this.nameChange(event.target.value, index) } value={v.name} label="Name" variant="outlined" size="small" />
-                                    &nbsp;&nbsp;
-                                    <TextField
-                                        name="adding-list__weight-amount"
-                                        className="adding-list__weight-amount"
-                                        onChange={event => this.weightAmountChange(event.target.value, index)}
-                                        value={v.weightAmount}
-                                        label="Weight / Amount"
-                                        variant="outlined" 
-                                        size="small"
-                                        type="number"
-                                        InputProps={{
-                                            startAdornment: (
-                                                <InputAdornment position="start">
-                                                    <AccountCircleIcon />
-                                                </InputAdornment>
-                                            ),
-                                        }}
-                                    />
-                                    {/* 
-                                    <input name="adding-list__weight-amount" className="adding-list__weight-amount" onChange={this.weightAmountChange} value={v.weightAmount} placeholder="weight/amount" type="number" />
-                                    <select name="adding-list__measure" className="adding-list__measure" onChange={this.measureChange} value={v.measure}>
-                                        <option value="piece">piece</option>
-                                        <option value="kg">kg</option>
-                                    </select>
-                                    <br />
-                                    <input name="adding-list__price" className="adding-list__price" onChange={this.priceChange} value={v.price} placeholder="Price" type="number" /> 
-                                    */}
+                                    <Paper style={{padding: ".7rem"}}>
+                                        <Grid container spacing={8}>
+                                            <Grid item xs={12} sm={5} md={7}>
+                                                <TextField name="adding-list__name" className="adding-list__name" onChange={event => this.nameChange(event.target.value, index)} value={v.name} label="Name" variant="filled" size="small" />
+                                            </Grid>
+                                            <Grid item xs={5} sm={3} md={2}>
+                                                <TextField
+                                                    name="adding-list__weight-amount"
+                                                    className="adding-list__weight-amount"
+                                                    onChange={event => this.weightAmountChange(event.target.value, index)}
+                                                    value={v.weightAmount}
+                                                    label="Weight / Amount"
+                                                    variant="filled"
+                                                    size="small"
+                                                    type="number"
+                                                />
+                                            </Grid>
+                                            <Grid item xs={5} sm={2} md={1}>
+                                                <TextField
+                                                    name="adding-list__measure"
+                                                    className="adding-list__measure"
+                                                    select
+                                                    label="Measure"
+                                                    value={v.measure}
+                                                    onChange={event => this.measureChange(event.target.value, index)}
+                                                    // helperText="piece/kg"
+                                                    variant="filled"
+                                                >
+                                                    <MenuItem key={"piece-" + index} value="piece">Piece</MenuItem>
+                                                    <MenuItem key={"kg-" + index} value="kg">KG</MenuItem>
+                                                </TextField>
+                                            </Grid>
+                                            <Grid item xs={12} sm={5} md={1}>
+                                                <TextField
+                                                    name="adding-list__price"
+                                                    className="adding-list__price"
+                                                    onChange={event => this.priceChange(event.target.value, index)}
+                                                    value={v.price}
+                                                    label="Price"
+                                                    variant="filled"
+                                                    size="small"
+                                                    type="number"
+                                                />
+                                            </Grid>
+                                            <Grid item xs={6} sm={2} md={1}>
+                                                <Button onClick={() => this.removeItem(index)} className="adding-list__btn-remove" size="medium" variant="contained" style={{ float: 'right' }}>
+                                                    <RemoveShoppingCartRoundedIcon color="secondary" />
+                                                </Button>
+                                            </Grid>
+                                        </Grid>
+                                    </Paper>
                                 </li>
                             )
                         })
                     }
                 </ul>
-                <Button onClick={this.addItem} className="adding-list__submit" size="medium" variant="contained" color="primary" style={{ backgroundColor: green[500] }}><AddIcon /> &nbsp;&nbsp;add a buy</Button>
+                <Button onClick={this.addItem} className="adding-list__submit" size="large" variant="contained" color="primary" style={{ backgroundColor: green[500] }}><AddIcon /> &nbsp;&nbsp;add a buy</Button>
             </div>
         )
     }
@@ -94,19 +112,52 @@ export default class AddingBuy extends Component {
 
         items[index].name = value;
 
-        this.setState({
-            items
-        })
+        if (this.props.getItems) {
+            this.props.getItems(items);
+        } else {
+            this.setState({
+                items
+            })
+        }
     }
-
     weightAmountChange(value, index) {
         const items = this.state.items; 
 
         items[index].weightAmount = value;
 
-        this.setState({
-            items
-        })
+        if (this.props.getItems) {
+            this.props.getItems(items);
+        } else {
+            this.setState({
+                items
+            })
+        }
+    }
+    measureChange(value, index) {
+        const items = this.state.items; 
+
+        items[index].measure = value;
+
+        if (this.props.getItems) {
+            this.props.getItems(items);
+        } else {
+            this.setState({
+                items
+            })
+        }
+    }
+    priceChange(value, index) {
+        const items = this.state.items; 
+
+        items[index].price = value;
+
+        if (this.props.getItems) {
+            this.props.getItems(items);
+        } else {
+            this.setState({
+                items
+            })
+        }
     }
 
     addItem() {
@@ -129,6 +180,7 @@ export default class AddingBuy extends Component {
     }
 }
 
-// AddItem.propTypes = {
-//   items: PropTypes.string
-// };
+AddingBuy.propTypes = {
+    items: PropTypes.array,
+    getItems: PropTypes.func
+};

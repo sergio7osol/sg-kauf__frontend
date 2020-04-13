@@ -31,6 +31,7 @@ import CardIcon from 'components/Card/CardIcon.jsx';
 import CardBody from 'components/Card/CardBody.jsx';
 import CardFooter from 'components/Card/CardFooter.jsx';
 import ImgTitleDescCard from 'components/ImgTitleDescCard/ImgTitleDescCard.jsx';
+import BuyDates from 'components/BuyDates/BuyDates.jsx';
 
 // new additions
 import request from 'request';
@@ -64,19 +65,19 @@ class Dashboard extends React.Component {
       const longitude = null;
 
       if (error) { return console.log('error >> ', error); }
-      
+
       latitude = response.body.features[1];
       longitude = response.body.features[0];
 
       console.log('response >> ', latitude, longitude)
 
-      this.setState((state) => ({ 
+      this.setState((state) => ({
           ...state,
           weather: {
             place_name: data.place_name,
             coordinates: {
               latitude,
-              longitude 
+              longitude
             }
           }
         })
@@ -96,14 +97,22 @@ class Dashboard extends React.Component {
     return (
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={8} md={7}>
-              <AddAndDisplayItems />
+          <GridItem xs={12} sm={2} style={{borderRight: ".4rem solid #ccc", borderRadius: "5%"}}>
+            <h3>Time period</h3>
+            <BuyDates />
+          </GridItem>
+          <GridItem xs={12} sm={10} style={{paddingRight: ".5rem"}}>
+            <h3>Buy</h3>
+            <AddAndDisplayItems />
             <Card>
               <CardHeader color="warning" stats icon>
                 <p className={classes.cardCategory}>List component</p>
               </CardHeader>
             </Card>
           </GridItem>
+        </GridContainer>
+
+        <GridContainer style={{marginTop: "2rem"}}>
           <GridItem xs={1}></GridItem>
           <GridItem xs={12} sm={5}>
             <ImgTitleDescCard />
@@ -188,7 +197,7 @@ class Dashboard extends React.Component {
                   Last 24 Hours
                 </div>
               </CardFooter>
-            </Card> 
+            </Card>
           </GridItem>
           <GridItem xs={12} sm={6} md={3}>
             <Card>

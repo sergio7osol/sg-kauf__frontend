@@ -25,6 +25,7 @@ describe('input controls\' existance', () => {
     const houseNumber = wrapped.find('input.add-item__house-number');
     const payMethod = wrapped.find('select.add-item__pay-method');
     const shopName = wrapped.find('input.add-item__shop-name');
+    const buyName = wrapped.find('input.add-item__buy-name');
     const submitBtn = wrapped.find("button[type='submit']");
 
 		expect(currency.length).toEqual(1);
@@ -45,7 +46,7 @@ describe('input controls', () => {
 
 	beforeEach(() => {
 		wrapped = mount(<AddItem />);
-    
+
     wrapped.find('select.add-item__currency').simulate('change', {
 			target: {
 				value: 'RU'
@@ -91,6 +92,11 @@ describe('input controls', () => {
 				value: 'REWE'
 			}
     });
+    wrapped.find('input.add-item__buy-name').simulate('change', {
+			target: {
+				value: 'Orange'
+			}
+    });
 
     wrapped.update();
 	});
@@ -106,7 +112,7 @@ describe('input controls', () => {
   });
   it('refreshes the pay method input properly on changing the value', () => {
     const payMethod = wrapped.find('select.add-item__pay-method');
-    
+
     expect(payMethod.prop('value')).toEqual('Cash');
 	});
   it('refreshes the date input properly on changing the value', () => {
@@ -117,37 +123,42 @@ describe('input controls', () => {
 
 	it('refreshes the time input properly on changing the value', () => {
     const time = wrapped.find('input.add-item__time');
-    
+
     expect(time.prop('value')).toEqual('14:18');
   });
-  
+
   it('refreshes the city/town input properly on changing the value', () => {
     const city = wrapped.find('input.add-item__city');
-    
+
     expect(city.prop('value')).toEqual('St.Petersburg');
   });
-  
+
   it('refreshes the index input properly on changing the value', () => {
     const index = wrapped.find('input.add-item__index');
-    
+
     expect(index.prop('value')).toEqual('125687');
   });
-  
+
   it('refreshes the street input properly on changing the value', () => {
     const street = wrapped.find('input.add-item__street');
-    
+
     expect(street.prop('value')).toEqual('Berliner Str.');
   });
-  
+
   it('refreshes the house number input properly on changing the value', () => {
     const houseNumber = wrapped.find('input.add-item__house-number');
-    
+
     expect(houseNumber.prop('value')).toEqual('72');
   });
   it('refreshes the shop name input properly on changing the value', () => {
     const houseNumber = wrapped.find('input.add-item__shop-name');
-    
+
     expect(houseNumber.prop('value')).toEqual('REWE');
+  });
+  it('refreshes the buy name input properly on changing the value', () => {
+    const buyName = wrapped.find('input.add-item__buy-name');
+
+    expect(buyName.prop('value')).toEqual('Orange');
   });
 
   it('empties the input fields, when form is submitted', () => {
